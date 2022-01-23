@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Звіти чергової зміни до департаменту</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            display: block;
+            box-sizing: border-box;
+            padding: 15px;
+            background: #f7f4f3;
+            height: 100vh;
+        }
+
+        .section {
+            box-sizing: border-box;
+            margin: 0 auto;
+            max-width: 984px;
+        }
+
+        .grid {
+            display: grid;
+            column-gap: 20px;
+            row-gap: 24px;
+            grid-template-columns: calc(33.3333% - 13px) calc(33.3333% - 13px) calc(33.3333% - 13px);
+        }
+
+        @media screen and (max-width: 900px) {
+            .grid {
+                grid-template-columns: 100%;
+            }
+        }
+
+        .title {
+            text-align: center;
+        }
+        .list-item {
+            background: #fff;
+            box-shadow: 0 4px 13px rgb(0 0 0 / 5%);
+            border-radius: 16px;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: SF Pro Text, sans-serif;
+            padding: 16px;
+            color: initial;
+            transition: all .1s;
+            text-decoration: none;
+            cursor: pointer;
+            min-height: 116px;
+            box-sizing: border-box;
+        }
+
+        .list-item__grow {
+            flex-grow: 1;
+        }
+
+        .list-item__badge {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            margin: 0 0 4px;
+            color: #716f6e;
+            display: flex;
+            white-space: nowrap;
+        }
+
+        .list-item__content {
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        .list-item__icon {
+            max-width: 48px;
+            max-height: 48px;
+            flex: 0 0 48px;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="section">
+            <h2 class="title">
+                Звіти чергової зміни до департаменту
+            </h2>
+
+            <div class="grid">
+
+                <a class="list-item"
+                    href="https://docs.google.com/forms/d/1DPAuA3Imt7GtRJ2ozW-G0KKRuNfTtoS6RadnP71maWs/edit?usp=sharing">
+                    <span class="list-item__content">
+                        <span class="list-item__grow">
+                            <span class="list-item__badge">
+                                Форми
+                            </span>
+                        </span>
+                        <h3 class="list-item__title">
+                            Google форма
+                        </h3>
+                    </span>
+                    <span class="list-item__icon">
+                        <object type="image/svg+xml" data="svg" alt="course-icon" width="48" height="48"
+                            data-use-theme="">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+                                viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                                <image id="image0" width="48" height="48" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                            AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAVFBMVEUAAACAQL9ySLlySblV
+                            N4pyR7pySLlySLhySLhySblqQL9ySbhySLlyR7lySLlySLlWNop9Vr7OwOf///+9qd64o9z29Pvn
+                            3/OihtHVyOqXeMuVdsvtzsC1AAAAD3RSTlMABH/Tb2vzw59XDHff74snnqzIAAAAAWJLR0QTDLtc
+                            lgAAAAd0SU1FB+YBFxA4IiK+SsYAAAB7SURBVEjH7dBJDoAgEERRnGdbxdn739MtCd1FTAwLwl/X
+                            25RS3krSjKxyAApimoDIWAAE8UAWEhCFCCQhA0EAwAsEWAEBJzBgBDkKGswfwaJXok0bOcCuj2/g
+                            vG6iZzOKL8WXwnkpgl9BifeVBWoMGgu0XS/PhzFR3noB9/dRiyCUdmMAAAAldEVYdGRhdGU6Y3Jl
+                            YXRlADIwMjItMDEtMjNUMTM6NTY6MzQrMDM6MDA8I9a8AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIy
+                            LTAxLTIzVDEzOjU2OjM0KzAzOjAwTX5uAAAAAABJRU5ErkJggg==" />
+                            </svg>
+                        </object>
+                    </span>
+                </a>
+
+                <a class="list-item"
+                    href="https://docs.google.com/forms/d/1DPAuA3Imt7GtRJ2ozW-G0KKRuNfTtoS6RadnP71maWs/edit?usp=sharing">
+                    <span class="list-item__content">
+                        <span class="list-item__grow">
+                            <span class="list-item__badge">
+                                Форми
+                            </span>
+                        </span>
+                        <h3 class="list-item__title">
+                            Google форма
+                        </h3>
+                    </span>
+                    <span class="list-item__icon">
+                        <object type="image/svg+xml" data="svg" alt="course-icon" width="48" height="48"
+                            data-use-theme="">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+                                viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                                <image id="image0" width="48" height="48" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                            AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAVFBMVEUAAACAQL9ySLlySblV
+                            N4pyR7pySLlySLhySLhySblqQL9ySbhySLlyR7lySLlySLlWNop9Vr7OwOf///+9qd64o9z29Pvn
+                            3/OihtHVyOqXeMuVdsvtzsC1AAAAD3RSTlMABH/Tb2vzw59XDHff74snnqzIAAAAAWJLR0QTDLtc
+                            lgAAAAd0SU1FB+YBFxA4IiK+SsYAAAB7SURBVEjH7dBJDoAgEERRnGdbxdn739MtCd1FTAwLwl/X
+                            25RS3krSjKxyAApimoDIWAAE8UAWEhCFCCQhA0EAwAsEWAEBJzBgBDkKGswfwaJXok0bOcCuj2/g
+                            vG6iZzOKL8WXwnkpgl9BifeVBWoMGgu0XS/PhzFR3noB9/dRiyCUdmMAAAAldEVYdGRhdGU6Y3Jl
+                            YXRlADIwMjItMDEtMjNUMTM6NTY6MzQrMDM6MDA8I9a8AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIy
+                            LTAxLTIzVDEzOjU2OjM0KzAzOjAwTX5uAAAAAABJRU5ErkJggg==" />
+                            </svg>
+                        </object>
+                    </span>
+                </a>
+
+                <a class="list-item"
+                    href="https://docs.google.com/forms/d/1DPAuA3Imt7GtRJ2ozW-G0KKRuNfTtoS6RadnP71maWs/edit?usp=sharing">
+                    <span class="list-item__content">
+                        <span class="list-item__grow">
+                            <span class="list-item__badge">
+                                Форми
+                            </span>
+                        </span>
+                        <h3 class="list-item__title">
+                            Google форма
+                        </h3>
+                    </span>
+                    <span class="list-item__icon">
+                        <object type="image/svg+xml" data="svg" alt="course-icon" width="48" height="48"
+                            data-use-theme="">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+                                viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                                <image id="image0" width="48" height="48" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                            AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAVFBMVEUAAACAQL9ySLlySblV
+                            N4pyR7pySLlySLhySLhySblqQL9ySbhySLlyR7lySLlySLlWNop9Vr7OwOf///+9qd64o9z29Pvn
+                            3/OihtHVyOqXeMuVdsvtzsC1AAAAD3RSTlMABH/Tb2vzw59XDHff74snnqzIAAAAAWJLR0QTDLtc
+                            lgAAAAd0SU1FB+YBFxA4IiK+SsYAAAB7SURBVEjH7dBJDoAgEERRnGdbxdn739MtCd1FTAwLwl/X
+                            25RS3krSjKxyAApimoDIWAAE8UAWEhCFCCQhA0EAwAsEWAEBJzBgBDkKGswfwaJXok0bOcCuj2/g
+                            vG6iZzOKL8WXwnkpgl9BifeVBWoMGgu0XS/PhzFR3noB9/dRiyCUdmMAAAAldEVYdGRhdGU6Y3Jl
+                            YXRlADIwMjItMDEtMjNUMTM6NTY6MzQrMDM6MDA8I9a8AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIy
+                            LTAxLTIzVDEzOjU2OjM0KzAzOjAwTX5uAAAAAABJRU5ErkJggg==" />
+                            </svg>
+                        </object>
+                    </span>
+                </a>
+
+                <a class="list-item"
+                    href="https://docs.google.com/forms/d/1DPAuA3Imt7GtRJ2ozW-G0KKRuNfTtoS6RadnP71maWs/edit?usp=sharing">
+                    <span class="list-item__content">
+                        <span class="list-item__grow">
+                            <span class="list-item__badge">
+                                Форми
+                            </span>
+                        </span>
+                        <h3 class="list-item__title">
+                            Google форма
+                        </h3>
+                    </span>
+                    <span class="list-item__icon">
+                        <object type="image/svg+xml" data="svg" alt="course-icon" width="48" height="48"
+                            data-use-theme="">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+                                viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                                <image id="image0" width="48" height="48" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                            AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAVFBMVEUAAACAQL9ySLlySblV
+                            N4pyR7pySLlySLhySLhySblqQL9ySbhySLlyR7lySLlySLlWNop9Vr7OwOf///+9qd64o9z29Pvn
+                            3/OihtHVyOqXeMuVdsvtzsC1AAAAD3RSTlMABH/Tb2vzw59XDHff74snnqzIAAAAAWJLR0QTDLtc
+                            lgAAAAd0SU1FB+YBFxA4IiK+SsYAAAB7SURBVEjH7dBJDoAgEERRnGdbxdn739MtCd1FTAwLwl/X
+                            25RS3krSjKxyAApimoDIWAAE8UAWEhCFCCQhA0EAwAsEWAEBJzBgBDkKGswfwaJXok0bOcCuj2/g
+                            vG6iZzOKL8WXwnkpgl9BifeVBWoMGgu0XS/PhzFR3noB9/dRiyCUdmMAAAAldEVYdGRhdGU6Y3Jl
+                            YXRlADIwMjItMDEtMjNUMTM6NTY6MzQrMDM6MDA8I9a8AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIy
+                            LTAxLTIzVDEzOjU2OjM0KzAzOjAwTX5uAAAAAABJRU5ErkJggg==" />
+                            </svg>
+                        </object>
+                    </span>
+                </a>
+
+                <a class="list-item"
+                    href="https://docs.google.com/forms/d/1DPAuA3Imt7GtRJ2ozW-G0KKRuNfTtoS6RadnP71maWs/edit?usp=sharing">
+                    <span class="list-item__content">
+                        <span class="list-item__grow">
+                            <span class="list-item__badge">
+                                Форми
+                            </span>
+                        </span>
+                        <h3 class="list-item__title">
+                            Google форма
+                        </h3>
+                    </span>
+                    <span class="list-item__icon">
+                        <object type="image/svg+xml" data="svg" alt="course-icon" width="48" height="48"
+                            data-use-theme="">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+                                viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                                <image id="image0" width="48" height="48" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                        AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAVFBMVEUAAACAQL9ySLlySblV
+                        N4pyR7pySLlySLhySLhySblqQL9ySbhySLlyR7lySLlySLlWNop9Vr7OwOf///+9qd64o9z29Pvn
+                        3/OihtHVyOqXeMuVdsvtzsC1AAAAD3RSTlMABH/Tb2vzw59XDHff74snnqzIAAAAAWJLR0QTDLtc
+                        lgAAAAd0SU1FB+YBFxA4IiK+SsYAAAB7SURBVEjH7dBJDoAgEERRnGdbxdn739MtCd1FTAwLwl/X
+                        25RS3krSjKxyAApimoDIWAAE8UAWEhCFCCQhA0EAwAsEWAEBJzBgBDkKGswfwaJXok0bOcCuj2/g
+                        vG6iZzOKL8WXwnkpgl9BifeVBWoMGgu0XS/PhzFR3noB9/dRiyCUdmMAAAAldEVYdGRhdGU6Y3Jl
+                        YXRlADIwMjItMDEtMjNUMTM6NTY6MzQrMDM6MDA8I9a8AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIy
+                        LTAxLTIzVDEzOjU2OjM0KzAzOjAwTX5uAAAAAABJRU5ErkJggg==" />
+                            </svg>
+                        </object>
+                    </span>
+                </a>
+
+                <a class="list-item"
+                    href="https://docs.google.com/forms/d/1DPAuA3Imt7GtRJ2ozW-G0KKRuNfTtoS6RadnP71maWs/edit?usp=sharing">
+                    <span class="list-item__content">
+                        <span class="list-item__grow">
+                            <span class="list-item__badge">
+                                Форми
+                            </span>
+                        </span>
+                        <h3 class="list-item__title">
+                            Google форма
+                        </h3>
+                    </span>
+                    <span class="list-item__icon">
+                        <object type="image/svg+xml" data="svg" alt="course-icon" width="48" height="48"
+                            data-use-theme="">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+                                viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                                <image id="image0" width="48" height="48" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                    AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAVFBMVEUAAACAQL9ySLlySblV
+                    N4pyR7pySLlySLhySLhySblqQL9ySbhySLlyR7lySLlySLlWNop9Vr7OwOf///+9qd64o9z29Pvn
+                    3/OihtHVyOqXeMuVdsvtzsC1AAAAD3RSTlMABH/Tb2vzw59XDHff74snnqzIAAAAAWJLR0QTDLtc
+                    lgAAAAd0SU1FB+YBFxA4IiK+SsYAAAB7SURBVEjH7dBJDoAgEERRnGdbxdn739MtCd1FTAwLwl/X
+                    25RS3krSjKxyAApimoDIWAAE8UAWEhCFCCQhA0EAwAsEWAEBJzBgBDkKGswfwaJXok0bOcCuj2/g
+                    vG6iZzOKL8WXwnkpgl9BifeVBWoMGgu0XS/PhzFR3noB9/dRiyCUdmMAAAAldEVYdGRhdGU6Y3Jl
+                    YXRlADIwMjItMDEtMjNUMTM6NTY6MzQrMDM6MDA8I9a8AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIy
+                    LTAxLTIzVDEzOjU2OjM0KzAzOjAwTX5uAAAAAABJRU5ErkJggg==" />
+                            </svg>
+                        </object>
+                    </span>
+                </a>
+
+                <a class="list-item"
+                    href="https://docs.google.com/forms/d/1DPAuA3Imt7GtRJ2ozW-G0KKRuNfTtoS6RadnP71maWs/edit?usp=sharing">
+                    <span class="list-item__content">
+                        <span class="list-item__grow">
+                            <span class="list-item__badge">
+                                Форми
+                            </span>
+                        </span>
+                        <h3 class="list-item__title">
+                            Google форма
+                        </h3>
+                    </span>
+                    <span class="list-item__icon">
+                        <object type="image/svg+xml" data="svg" alt="course-icon" width="48" height="48"
+                            data-use-theme="">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+                                viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                                <image id="image0" width="48" height="48" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAVFBMVEUAAACAQL9ySLlySblV
+                N4pyR7pySLlySLhySLhySblqQL9ySbhySLlyR7lySLlySLlWNop9Vr7OwOf///+9qd64o9z29Pvn
+                3/OihtHVyOqXeMuVdsvtzsC1AAAAD3RSTlMABH/Tb2vzw59XDHff74snnqzIAAAAAWJLR0QTDLtc
+                lgAAAAd0SU1FB+YBFxA4IiK+SsYAAAB7SURBVEjH7dBJDoAgEERRnGdbxdn739MtCd1FTAwLwl/X
+                25RS3krSjKxyAApimoDIWAAE8UAWEhCFCCQhA0EAwAsEWAEBJzBgBDkKGswfwaJXok0bOcCuj2/g
+                vG6iZzOKL8WXwnkpgl9BifeVBWoMGgu0XS/PhzFR3noB9/dRiyCUdmMAAAAldEVYdGRhdGU6Y3Jl
+                YXRlADIwMjItMDEtMjNUMTM6NTY6MzQrMDM6MDA8I9a8AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIy
+                LTAxLTIzVDEzOjU2OjM0KzAzOjAwTX5uAAAAAABJRU5ErkJggg==" />
+                            </svg>
+                        </object>
+                    </span>
+                </a>
+
+                <a class="list-item"
+                href="https://docs.google.com/forms/d/1DPAuA3Imt7GtRJ2ozW-G0KKRuNfTtoS6RadnP71maWs/edit?usp=sharing">
+                <span class="list-item__content">
+                    <span class="list-item__grow">
+                        <span class="list-item__badge">
+                            Форми
+                        </span>
+                    </span>
+                    <h3 class="list-item__title">
+                        Google форма
+                    </h3>
+                </span>
+                <span class="list-item__icon">
+                    <object type="image/svg+xml" data="svg" alt="course-icon" width="48" height="48"
+                        data-use-theme="">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+                            viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                            <image id="image0" width="48" height="48" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                        AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAVFBMVEUAAACAQL9ySLlySblV
+                        N4pyR7pySLlySLhySLhySblqQL9ySbhySLlyR7lySLlySLlWNop9Vr7OwOf///+9qd64o9z29Pvn
+                        3/OihtHVyOqXeMuVdsvtzsC1AAAAD3RSTlMABH/Tb2vzw59XDHff74snnqzIAAAAAWJLR0QTDLtc
+                        lgAAAAd0SU1FB+YBFxA4IiK+SsYAAAB7SURBVEjH7dBJDoAgEERRnGdbxdn739MtCd1FTAwLwl/X
+                        25RS3krSjKxyAApimoDIWAAE8UAWEhCFCCQhA0EAwAsEWAEBJzBgBDkKGswfwaJXok0bOcCuj2/g
+                        vG6iZzOKL8WXwnkpgl9BifeVBWoMGgu0XS/PhzFR3noB9/dRiyCUdmMAAAAldEVYdGRhdGU6Y3Jl
+                        YXRlADIwMjItMDEtMjNUMTM6NTY6MzQrMDM6MDA8I9a8AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIy
+                        LTAxLTIzVDEzOjU2OjM0KzAzOjAwTX5uAAAAAABJRU5ErkJggg==" />
+                        </svg>
+                    </object>
+                </span>
+            </a>
+
+            <a class="list-item"
+            href="https://docs.google.com/forms/d/1DPAuA3Imt7GtRJ2ozW-G0KKRuNfTtoS6RadnP71maWs/edit?usp=sharing">
+            <span class="list-item__content">
+                <span class="list-item__grow">
+                    <span class="list-item__badge">
+                        Форми
+                    </span>
+                </span>
+                <h3 class="list-item__title">
+                    Google форма
+                </h3>
+            </span>
+            <span class="list-item__icon">
+                <object type="image/svg+xml" data="svg" alt="course-icon" width="48" height="48"
+                    data-use-theme="">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+                        viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                        <image id="image0" width="48" height="48" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                    AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAVFBMVEUAAACAQL9ySLlySblV
+                    N4pyR7pySLlySLhySLhySblqQL9ySbhySLlyR7lySLlySLlWNop9Vr7OwOf///+9qd64o9z29Pvn
+                    3/OihtHVyOqXeMuVdsvtzsC1AAAAD3RSTlMABH/Tb2vzw59XDHff74snnqzIAAAAAWJLR0QTDLtc
+                    lgAAAAd0SU1FB+YBFxA4IiK+SsYAAAB7SURBVEjH7dBJDoAgEERRnGdbxdn739MtCd1FTAwLwl/X
+                    25RS3krSjKxyAApimoDIWAAE8UAWEhCFCCQhA0EAwAsEWAEBJzBgBDkKGswfwaJXok0bOcCuj2/g
+                    vG6iZzOKL8WXwnkpgl9BifeVBWoMGgu0XS/PhzFR3noB9/dRiyCUdmMAAAAldEVYdGRhdGU6Y3Jl
+                    YXRlADIwMjItMDEtMjNUMTM6NTY6MzQrMDM6MDA8I9a8AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIy
+                    LTAxLTIzVDEzOjU2OjM0KzAzOjAwTX5uAAAAAABJRU5ErkJggg==" />
+                    </svg>
+                </object>
+            </span>
+        </a>
+
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
